@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Do You Know Your Dog?</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+   <!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+
+</head>
+
+
+<body>
+<header id="masthead">
+		<div class="container">
+			<h1>Do You Know Your Dog?</h1>
+			<h3 class="rules">You have 30 seconds to answer 4 questions!</h3>
+		</div>
+	</header>
+<div class="container content">
+
+    <div class="main-section">
+		<section class="data">
+
+			<div class="time">
+				<p class="counter"></p>
+			</div>
+
+
+			<form action="#">
+				<label>When a dog runs to your feet and rolls over on his/her back, what is he/she saying to you?</label> <br>
+				<input type="radio" value="A" name="location"> Pet me NOW! <br>
+				<input type="radio" value="B" name="location"> Hey Boss what’s up?", <br> 
+				<input type="radio" value="C" name="location"> C’mon let’s go squirrel hunting<br>
+				<input type="radio" value="D" name="location"> Give me some treat!"  <br>
+
+
+				<label>What does it mean when the hair on your dog’s back stands up?</label> <br>
+				<input type="radio" value="E" name="address"> I feeling guilty and/or submissive <br>
+				<input type="radio" value="F" name="address"> I’m having a bad hair day<br> 
+				<input type="radio" value="G" name="address"> I am angry and/or suspicious<br>
+				<input type="radio" value="H" name="address"> I want to play! <br>
+
+
+				<label>During sustained eye contact between you and your dog, if your dog looks away first, it means that:</label> <br>
+				<input type="radio" value="I" name="title"> She is feeling insecure and unloved <br>
+				<input type="radio" value="J" name="title"> She is submitting to your dominant role<br> 
+				<input type="radio" value="K" name="title"> She is asserting her dominance over you<br>
+				<input type="radio" value="L" name="title"> She is shy <br>
+
+
+				<label>Your dog would love nothing better than to climb into bed with you. But you insist that he/she sleep on the floor beside your bed. What does your dog think?</label> <br>
+				<input type="radio" value="M" name="colors"> That you are unfair and mean <br>
+				<input type="radio" value="N" name="colors"> That you are punishing him/her<br> 
+				<input type="radio" value="O" name="colors"> That you are the boss of the household<br>
+				<input type="radio" value="P" name="colors"> That you think there is not enough room for the two of you <br>	
+			</form>
+
+
+			<button class="btn btn-primary done">Done</button>
+		</section>
+	</div>
+
+	<div class="result">
+		<p class="correct"></p>
+		<p class="incorrect"></p>
+		<p class="empty"></p>
+	</div>
+
+	<button class="btn btn-primary start">Start Game!!!</button>
+
+</div>
+<footer id="footer" class="site-footer">
+	<div class="container">
+		&copy; Copyright 2017 Heidi Tochigi
+	</div>
+</footer>
+
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+</html>
